@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+/*
+ * méthode AnalyticsCounter
+ * @param ecriture_symptoms
+ * @param lecture_symptoms
+ */
 
 public class AnalyticsCounter {
 	
@@ -15,7 +20,7 @@ public class AnalyticsCounter {
 		this.lecture_symptoms = reader;
 	}
 	/*
-	 * methode recuperant la liste des entree (symptomes) dans le fichier
+	 * méthode recuperant la liste des entrées (symptomes) dans le fichier
 	 */
 	public List<String> getSymptoms(){
 		
@@ -23,7 +28,7 @@ public class AnalyticsCounter {
 		
 	}
 	/*
-	 * methode qui compte chaque symptome existant
+	 * méthode qui compte chaque symptome existant
 	 */
 	public Map<String, Integer> countSymptoms(List<String> symptoms){
 		
@@ -39,7 +44,7 @@ public class AnalyticsCounter {
 		
 	}
 	/*
-	 * methode qui trie la liste de symptomes et d'occurences par ordre alphabetique
+	 * méthode qui trie la liste de symptômes et d'occurences par ordre alphabetique
 	 */
 	public Map<String, Integer> sortSymptoms(Map<String,Integer> symptoms){
 		//trie par ordre alphabetique des cles
@@ -48,7 +53,7 @@ public class AnalyticsCounter {
 		
 	}
 	/*
-	 * methode qui ecrire le resultat dans le fichier de sortie
+	 * méthode qui écrire le resultat dans le fichier de sortie
 	 * @param symptoms
 	 */
 	public void writeSymptoms(Map<String, Integer> symptoms) {

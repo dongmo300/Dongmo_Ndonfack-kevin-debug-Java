@@ -5,7 +5,7 @@ import java.util.Map;
 public interface ISymptomWriter {
 	
 	/*
-	 * methode abstrate qui nous servira d ecrire dans un fichier
+	 * méthode abstrate qui nous servira d'ecrire dans un fichier
 	 * @param symtoms
 	 */
 	

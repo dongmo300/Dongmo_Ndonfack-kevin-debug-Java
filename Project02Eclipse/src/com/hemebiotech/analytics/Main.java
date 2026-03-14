@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-
+/*
+ * méthode Main executant le code
+ */
 	public static void main(String[] args) {
 		ISymptomReader lecteurFichier = new ReadSymptomDataFromFile("Project02Eclipse/symptoms.txt");
 		ISymptomWriter ecriveurFichier = new WriteSymptomDataToFile();
